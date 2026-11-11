@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>local.qobuz.alfred.controls</string>
+	<key>connections</key>
+	<dict>
+		<key>control</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>notify</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>menu</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>control</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qcheck</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>qcheck-arg</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qcheck-arg</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>control</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qdebug</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>debug-open</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qdown</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>qdown-arg</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qdown-arg</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>control</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qnext</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>qnext-arg</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qnext-arg</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>control</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qplay</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>qplay-arg</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qplay-arg</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>control</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qprev</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>qprev-arg</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qprev-arg</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>control</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qup</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>qup-arg</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>qup-arg</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>control</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>search</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>search-arg</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>search-arg</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>control</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>njg001</string>
+	<key>description</key>
+	<string>Qobuz playback and volume with previous-app focus restoration; desktop search</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Qobuz Controls</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>qobuz</string>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>script</key>
+				<string>cat menu.json</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>subtext</key>
+				<string>Playback, volume and setup</string>
+				<key>title</key>
+				<string>Qobuz Controls</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>menu</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>logdir="${alfred_workflow_cache:-${TMPDIR:-/tmp}/qobuz-controls}"
+/bin/mkdir -p "$logdir"
+logfile="$logdir/control.log"
+result=$(/usr/bin/osascript -l JavaScript "$PWD/control.js" "$1" 2&gt; "$logfile")
+controller_status=$?
+if [ "$controller_status" -ne 0 ]; then
+  result="Qobuz controller exited with status $controller_status. Run qdebug for details."
+fi
+printf '%s\n' "$result" &gt;&gt; "$logfile"
+printf '%s' "$result"
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>control</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>qplay</string>
+				<key>subtext</key>
+				<string>Qobuz Controls</string>
+				<key>text</key>
+				<string>Play / pause Qobuz</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>qplay</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>printf '%s' 'toggle'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>qplay-arg</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>qnext</string>
+				<key>subtext</key>
+				<string>Qobuz Controls</string>
+				<key>text</key>
+				<string>Next Qobuz track</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>qnext</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>printf '%s' 'next'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>qnext-arg</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>qprev</string>
+				<key>subtext</key>
+				<string>Qobuz Controls</string>
+				<key>text</key>
+				<string>Previous Qobuz track</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>qprev</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>printf '%s' 'previous'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>qprev-arg</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>qup</string>
+				<key>subtext</key>
+				<string>Qobuz Controls</string>
+				<key>text</key>
+				<string>Qobuz volume up</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>qup</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>printf '%s' 'up'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>qup-arg</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>qdown</string>
+				<key>subtext</key>
+				<string>Qobuz Controls</string>
+				<key>text</key>
+				<string>Qobuz volume down</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>qdown</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>printf '%s' 'down'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>qdown-arg</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>qcheck</string>
+				<key>subtext</key>
+				<string>Qobuz Controls</string>
+				<key>text</key>
+				<string>Check Qobuz workflow permissions</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>qcheck</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>printf '%s' 'check'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>qcheck-arg</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>qsearch</string>
+				<key>subtext</key>
+				<string>Search inside the desktop app</string>
+				<key>text</key>
+				<string>Search Qobuz for {query}</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>search</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>printf 'search %s' "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>search-arg</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Qobuz Controls</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>notify</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>qdebug</string>
+				<key>subtext</key>
+				<string>Shows the last command and captured/restored app; no notification needed</string>
+				<key>text</key>
+				<string>Open Qobuz diagnostic log</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>qdebug</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>logdir="${alfred_workflow_cache:-${TMPDIR:-/tmp}/qobuz-controls}"
+/bin/mkdir -p "$logdir"
+if [ ! -f "$logdir/control.log" ]; then
+  printf '%s\n' 'No command log yet. Run qnext from another app, then qdebug.' &gt; "$logdir/control.log"
+fi
+/usr/bin/open -t "$logdir/control.log"
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>debug-open</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Setup
+
+Requires Alfred 5 with Powerpack and the Qobuz macOS desktop app. Import the `.alfredworkflow` file from Releases. Enable Alfred in System Settings → Privacy &amp; Security → Accessibility, and allow its requests to control System Events and Qobuz under Automation. Open Qobuz, sign in and load a playable queue. Close dialogs before sending commands.
+
+## Usage
+
+Control Qobuz playback and volume via the `qobuz` keyword.
+
+| Keyword | Action |
+| --- | --- |
+| `qplay` | Toggle play/pause |
+| `qnext` | Next track |
+| `qprev` | Previous track / restart according to Qobuz |
+| `qup` / `qdown` | Qobuz software volume +5 / −5 |
+| `qsearch Miles Davis` | Search in the desktop app |
+| `qcheck` | Check Accessibility availability |
+| `qdebug` | Open the latest local diagnostic log |
+
+Playback and volume briefly bring Qobuz forward, send its own shortcut and restore the previously active app. Qobuz may visibly flash. Search and Open leave it visible. If you switch to another app during a command, restoration does not override that switch. Keywords are editable in Alfred's workflow editor.
+
+## Limitations
+
+This uses macOS System Events UI scripting and Qobuz's keyboard shortcuts, not a Qobuz remote-control API, app-specific AppleScript transport commands, or generic media-key broadcasts. It requires an unlocked desktop session. UI changes, dialogs, keyboard layouts and focus timing can interfere. Search text entry may vary with non-Latin characters. Fixed-volume or remote output devices may ignore software volume. Separate deterministic play and pause are not provided.
+
+Next-track playback and focus restoration were confirmed on one user's Mac using v1.1.2; other commands and broader compatibility still need community testing. Qobuz's installed shortcut panel and handlers were inspected in desktop version 8.3.0-b028 (UI 8.3.0-b029). A “Sent” message confirms shortcut dispatch, not an independently verified playback change.
+
+## Troubleshooting and privacy
+
+If a command fails, run `qdebug`. The workflow keeps only the latest command log in Alfred's workflow cache. It records command type, foreground app identifiers/process IDs and errors; search query text is not deliberately recorded. Review logs before sharing them. The workflow does not upload logs or read credentials, change the clipboard, install software, or modify Qobuz.
+
+No API keys, Python, Node or additional packages are required. Built-in macOS osascript/JXA is used. Notifications are optional: qdebug opens the log even when notifications are disabled.
+
+## Development and credits
+
+Maintained by **njg001**. Created with substantial assistance from OpenAI Codex, an AI coding tool; debugged with user testing. Unofficial and unaffiliated with Qobuz or Alfred. The icon is an original generic playback graphic.
+
+The readable source is in `workflow/`. To package it, ZIP that directory's contents with `info.plist` at the ZIP root and use the `.alfredworkflow` extension. No auto-updater or compiled binary is included. Licensed under MIT; see LICENSE.
+</string>
+	<key>uidata</key>
+	<dict>
+		<key>control</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>debug-open</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>1800</integer>
+		</dict>
+		<key>menu</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>notify</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>1580</integer>
+		</dict>
+		<key>qcheck</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>1220</integer>
+		</dict>
+		<key>qcheck-arg</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>1310</integer>
+		</dict>
+		<key>qdebug</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>1800</integer>
+		</dict>
+		<key>qdown</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>1040</integer>
+		</dict>
+		<key>qdown-arg</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>1130</integer>
+		</dict>
+		<key>qnext</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>500</integer>
+		</dict>
+		<key>qnext-arg</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>590</integer>
+		</dict>
+		<key>qplay</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>qplay-arg</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>qprev</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>680</integer>
+		</dict>
+		<key>qprev-arg</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>770</integer>
+		</dict>
+		<key>qup</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>860</integer>
+		</dict>
+		<key>qup-arg</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>950</integer>
+		</dict>
+		<key>search</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>1400</integer>
+		</dict>
+		<key>search-arg</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>1490</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.1.2</string>
+	<key>webaddress</key>
+	<string>https://github.com/njg001/alfred-qobuz-controls</string>
+</dict>
+</plist>
